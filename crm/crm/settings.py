@@ -15,7 +15,7 @@ SECRET_KEY = 'o56kf+-ku2cpo!&((omwh^b$@%no)&z)baab=euv74d#x00z*='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['raju-crm-app.herokuapp.com', '127.0.0.1:8007']
+ALLOWED_HOSTS = []
 
 
 # Application definition
