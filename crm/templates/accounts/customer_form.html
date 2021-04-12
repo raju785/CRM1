@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body">
+
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    <br>
+                    <table class="table table-sm">
+                        <tr>
+                            <th>{{form}}</th>
+                        </tr>
+                    </table>
+                                      
+                    <hr>
+                    
+                    <input type="submit" name="Submit">
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
